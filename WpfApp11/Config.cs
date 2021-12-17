@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System;
+using System.IO;
 using System.Text;
 using Newtonsoft.Json;
 
@@ -23,9 +24,19 @@ public class Config
     public static string GetConfigFilePath()
     {
         // .exe location
-        string appFilePath = System.Reflection.Assembly.GetEntryAssembly().Location;
-        return System.Text.RegularExpressions.Regex.Replace(appFilePath, ".exe", "json",
-            System.Text.RegularExpressions.RegexOptions.IgnoreCase);
+        // string appFilePath = System.Reflection.Assembly.GetEntryAssembly().Location; // Dereference of a possibly null reference
+        // return System.Text.RegularExpressions.Regex.Replace(appFilePath, ".exe", "json",
+        //     System.Text.RegularExpressions.RegexOptions.IgnoreCase);
+        try
+        {
+            string appFilePath = System.Reflection.Assembly.GetEntryAssembly().Location; // Dereference of a possibly null reference
+            return System.Text.RegularExpressions.Regex.Replace(appFilePath, ".exe", "json",
+                System.Text.RegularExpressions.RegexOptions.IgnoreCase);
+        }
+        catch (Exception e)
+        {
+            return e.Message;
+        }
     }
 
     // public static Config ReadConfig() // Possible null reference return

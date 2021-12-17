@@ -7,9 +7,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87eba007-9a9e-4862-9b28-deece48a7c63" name="Changes" comment="wrote code">
+    <list default="true" id="87eba007-9a9e-4862-9b28-deece48a7c63" name="Changes" comment="test failed. App process finished instantly">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WpfApp11/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WpfApp11/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WpfApp11/Config.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp11/Config.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp11/MainWindow.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp11/MainWindow.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpfApp11/Person.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp11/Person.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +24,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/WpfApp11/Person.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WpfApp11/Config.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Enin/RiderProjects/WpfApp11/WpfApp11/Config.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Enin/RiderProjects/WpfApp11/WpfApp11/MainWindow.xaml" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WpfApp11/MainWindow.xaml" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -76,7 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1639728634279</updated>
       <workItem from="1639728642634" duration="2338000" />
-      <workItem from="1639731321297" duration="2944000" />
+      <workItem from="1639731321297" duration="4170000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1639728663774</created>
@@ -99,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639733105785</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="test failed. App process finished instantly">
+      <created>1639734556779</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1639734556779</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +134,7 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="added Config and Person" />
     <MESSAGE value="wrote code" />
-    <option name="LAST_COMMIT_MESSAGE" value="wrote code" />
+    <MESSAGE value="test failed. App process finished instantly" />
+    <option name="LAST_COMMIT_MESSAGE" value="test failed. App process finished instantly" />
   </component>
 </project>
