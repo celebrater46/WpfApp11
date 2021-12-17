@@ -4,12 +4,14 @@ using Newtonsoft.Json;
 
 namespace WpfApp11;
 
+// #nullable enable
 public class Config
 {
     #region MyField
 
     public Person Person { get; set; }
-    public string Memo { get; set; }
+    // public string Memo { get; set; } // Non-nullable property 'Memo' is uninitialized
+    public string? Memo { get; set; }
 
     #endregion
 
@@ -26,7 +28,8 @@ public class Config
             System.Text.RegularExpressions.RegexOptions.IgnoreCase);
     }
 
-    public static Config ReadConfig()
+    // public static Config ReadConfig() // Possible null reference return
+    public static Config? ReadConfig()
     {
         string configFile = GetConfigFilePath();
         if (File.Exists(configFile) == false)
