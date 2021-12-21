@@ -29,7 +29,7 @@ public class Config
         // .exe location
         // C:\Users\Enin\RiderProjects\WpfApp11\WpfApp11\bin\Debug\net6.0-windows\WpfApp11.dll
         string appFilePath = System.Reflection.Assembly.GetEntryAssembly().Location; // Dereference of a possibly null reference
-        // return System.Text.RegularExpressions.Regex.Replace(appFilePath, ".exe", "json",
+        // return System.Text.RegularExpressions.Regex.Replace(appFilePath, ".exe", "json", // Wrong extension Refer: https://stackoverflow.com/questions/32910712/dosbox-this-program-cannot-be-run-in-dos-mode-assembly
         return System.Text.RegularExpressions.Regex.Replace(appFilePath, ".dll", "json",
             System.Text.RegularExpressions.RegexOptions.IgnoreCase);
     }

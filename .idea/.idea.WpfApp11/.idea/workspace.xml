@@ -7,9 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87eba007-9a9e-4862-9b28-deece48a7c63" name="Changes" comment="introduced system.text.json, but app finished forcibly">
+    <list default="true" id="87eba007-9a9e-4862-9b28-deece48a7c63" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WpfApp11/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WpfApp11/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp11/Config.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp11/Config.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +21,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/WpfApp11/Person.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WpfApp11/Config.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Enin/RiderProjects/WpfApp11/WpfApp11/Config.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Enin/RiderProjects/WpfApp11/WpfApp11/Config.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WpfApp11/MainWindow.xaml" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -79,7 +79,7 @@
       <workItem from="1639731321297" duration="4236000" />
       <workItem from="1639735791023" duration="677000" />
       <workItem from="1640079311457" duration="26000" />
-      <workItem from="1640079487640" duration="1839000" />
+      <workItem from="1640079487640" duration="2251000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1639728663774</created>
@@ -137,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640080680767</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="test succeeded (also read and write the data)">
+      <created>1640081530687</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1640081530687</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,20 +174,21 @@
     <MESSAGE value="App opened successfully" />
     <MESSAGE value="commit before changing to system.text.json" />
     <MESSAGE value="introduced system.text.json, but app finished forcibly" />
-    <option name="LAST_COMMIT_MESSAGE" value="introduced system.text.json, but app finished forcibly" />
+    <MESSAGE value="test succeeded (also read and write the data)" />
+    <option name="LAST_COMMIT_MESSAGE" value="test succeeded (also read and write the data)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/WpfApp11/Config.cs</url>
-          <line>56</line>
+          <line>57</line>
           <properties documentPath="C:\Users\Enin\RiderProjects\WpfApp11\WpfApp11\Config.cs" initialLine="56" containingFunctionPresentation="method 'ReadConfig'">
             <startOffsets>
-              <option value="1999" />
+              <option value="2091" />
             </startOffsets>
             <endOffsets>
-              <option value="2046" />
+              <option value="2138" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="7" />
