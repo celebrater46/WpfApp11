@@ -7,10 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87eba007-9a9e-4862-9b28-deece48a7c63" name="Changes" comment="">
+    <list default="true" id="87eba007-9a9e-4862-9b28-deece48a7c63" name="Changes" comment="commit before changing to system.text.json">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WpfApp11/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WpfApp11/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WpfApp11/Config.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp11/Config.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpfApp11/MainWindow.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WpfApp11/MainWindow.xaml.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +78,7 @@
       <workItem from="1639731321297" duration="4236000" />
       <workItem from="1639735791023" duration="677000" />
       <workItem from="1640079311457" duration="26000" />
-      <workItem from="1640079487640" duration="427000" />
+      <workItem from="1640079487640" duration="1108000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1639728663774</created>
@@ -116,7 +115,21 @@
       <option name="project" value="LOCAL" />
       <updated>1639735585095</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="App opened successfully">
+      <created>1640079977821</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1640079977821</updated>
+    </task>
+    <task id="LOCAL-00007" summary="commit before changing to system.text.json">
+      <created>1640080239022</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1640080239022</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +156,8 @@
     <MESSAGE value="wrote code" />
     <MESSAGE value="test failed. App process finished instantly" />
     <MESSAGE value="test failed again" />
-    <option name="LAST_COMMIT_MESSAGE" value="test failed again" />
+    <MESSAGE value="App opened successfully" />
+    <MESSAGE value="commit before changing to system.text.json" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit before changing to system.text.json" />
   </component>
 </project>
