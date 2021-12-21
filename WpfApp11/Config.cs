@@ -27,8 +27,10 @@ public class Config
     // public static void GetConfigFilePath()
     {
         // .exe location
+        // C:\Users\Enin\RiderProjects\WpfApp11\WpfApp11\bin\Debug\net6.0-windows\WpfApp11.dll
         string appFilePath = System.Reflection.Assembly.GetEntryAssembly().Location; // Dereference of a possibly null reference
-        return System.Text.RegularExpressions.Regex.Replace(appFilePath, ".exe", "json",
+        // return System.Text.RegularExpressions.Regex.Replace(appFilePath, ".exe", "json",
+        return System.Text.RegularExpressions.Regex.Replace(appFilePath, ".dll", "json",
             System.Text.RegularExpressions.RegexOptions.IgnoreCase);
     }
 
@@ -44,6 +46,7 @@ public class Config
         using (var reader = new StreamReader(configFile, Encoding.UTF8))
         {
             // Read settings
+            // V This program cannot be run in DOS mode
             string buf = reader.ReadToEnd();
             
             // Deserialize and return
