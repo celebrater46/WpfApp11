@@ -17,17 +17,19 @@ namespace WpfApp11
 
         private void LoadFromConfig()
         {
-            var cfg = Config.ReadConfig();
-            if (cfg == null)
+            // var cfg = Config.ReadConfig();
+            // if (cfg == null) 
+            var cfg = 1;
+            if (cfg == 1)
             {
                 // No Setting
                 return;
             }
 
-            nameText.Text = cfg.Person.Name;
-            ageText.Text = cfg.Person.Age.ToString();
-            cal.SelectedDate = cfg.Person.Birthday.ToLocalTime();
-            memoText.Text = cfg.Memo;
+            // nameText.Text = cfg.Person.Name;
+            // ageText.Text = cfg.Person.Age.ToString();
+            // cal.SelectedDate = cfg.Person.Birthday.ToLocalTime();
+            // memoText.Text = cfg.Memo;
         }
 
         private void SaveToConfig()
@@ -47,7 +49,7 @@ namespace WpfApp11
             cfg.Memo = memoText.Text;
             
             // Save Config
-            Config.WriteConfig(cfg);
+            // Config.WriteConfig(cfg);
         }
 
         private void WindowContentRendered(object sender, EventArgs e)
